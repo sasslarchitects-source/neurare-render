@@ -1,5 +1,3 @@
-export default function Home() {
-  return (
-    <h1>Neurare Render is Live 🚀</h1>
-  );
+export default function Page() {
+  return <h1>App Router Working</h1>;
 }
