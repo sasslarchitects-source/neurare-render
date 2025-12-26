@@ -2,34 +2,35 @@ export default function Home() {
   return (
     <main className="container">
       <section className="hero">
-        <h1>Neurare Studio</h1>
+        <h1>Neurare Architects</h1>
         <p>
-          We create modern 3D renders, architectural visuals,  
-          and digital experiences that stand out.
+          We design modern, functional and timeless architectural spaces.
         </p>
+
         <div className="buttons">
-          <a href="#work">View Work</a>
-          <a href="#contact" className="outline">Contact Us</a>
+          <a href="#">View Projects</a>
+          <a href="#" className="outline">Contact Us</a>
         </div>
       </section>
 
-      <section id="work" className="section">
-        <h2>Our Services</h2>
+      <section className="section">
+        <h2>Our Expertise</h2>
+
         <div className="grid">
-          <div className="card">3D Architecture Rendering</div>
-          <div className="card">Interior Visualization</div>
-          <div className="card">Product Visualization</div>
+          <div className="card">Architecture Design</div>
+          <div className="card">Interior Design</div>
+          <div className="card">Urban Planning</div>
+          <div className="card">3D Visualization</div>
         </div>
       </section>
 
-      <section id="contact" className="section dark">
-        <h2>Let’s Work Together</h2>
-        <p>Email: sasslarchitects@gmail.com</p>
-        <p>WhatsApp: +91-8685061130</p>
+      <section className="section dark">
+        <h2>Why Choose Us</h2>
+        <p>Creative ideas, modern execution, reliable delivery.</p>
       </section>
 
       <footer>
-        © {new Date().getFullYear()} Neurare Studio. All rights reserved.
+        © 2025 Neurare Architects. All rights reserved.
       </footer>
     </main>
   );
