@@ -25,7 +25,7 @@ export default function Home() {
       <section id="contact" className="section dark">
         <h2>Let’s Work Together</h2>
         <p>Email: sasslarchitects@gmail.com</p>
-        <p>WhatsApp: +91-XXXXXXXXXX</p>
+        <p>WhatsApp: +91-8685061130</p>
       </section>
 
       <footer>
