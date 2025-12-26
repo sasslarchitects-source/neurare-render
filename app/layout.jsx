@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Neurare",
-  description: "Next.js App Router working correctly",
+  title: "Neurare Architects",
+  description: "Architecture Studio Website",
 };
 
 export default function RootLayout({ children }) {
