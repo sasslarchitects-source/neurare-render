@@ -1,8 +1,3 @@
 export default function SettingsPage() {
-  return (
-    <>
-      <h1>Settings</h1>
-      <p>Manage your account and preferences here.</p>
-    </>
-  );
+  return <h1>Settings Working ✅</h1>;
 }
