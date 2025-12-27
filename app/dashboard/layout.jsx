@@ -1,30 +1,13 @@
-import Link from "next/link";
-
 export default function DashboardLayout({ children }) {
   return (
-    <div style={{ display: "flex", minHeight: "100vh" }}>
-      
-      {/* Sidebar */}
-      <aside
-        style={{
-          width: "220px",
-          padding: "20px",
-          background: "#111",
-          color: "#fff",
-        }}
-      >
-        <h2>Dashboard</h2>
-        <nav style={{ marginTop: "20px" }}>
-          <p><Link href="/dashboard">Home</Link></p>
-          <p><Link href="/dashboard/projects">Projects</Link></p>
-          <p><Link href="/dashboard/settings">Settings</Link></p>
-        </nav>
-      </aside>
+    <section>
+      <nav style={{ padding: "20px", borderBottom: "1px solid #ccc" }}>
+        <a href="/dashboard">Dashboard</a> |{" "}
+        <a href="/dashboard/projects">Projects</a> |{" "}
+        <a href="/dashboard/settings">Settings</a>
+      </nav>
 
-      {/* Main Content */}
-      <main style={{ padding: "30px", flex: 1 }}>
-        {children}
-      </main>
-    </div>
+      <main>{children}</main>
+    </section>
   );
 }
