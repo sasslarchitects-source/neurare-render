@@ -1,8 +1,3 @@
 export default function SettingsPage() {
-  return (
-    <div style={{ padding: "40px" }}>
-      <h1>Settings</h1>
-      <p>Settings page is working ⚙️</p>
-    </div>
-  );
+  return <h1>Settings Page</h1>;
 }
